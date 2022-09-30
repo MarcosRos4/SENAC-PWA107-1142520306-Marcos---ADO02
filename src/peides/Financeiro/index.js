@@ -1,25 +1,21 @@
 import fin from "./fin.png"
 import { useState } from "react";
-import Cadastro from "../Cadastro";
 
 function Financeiro(){
-    const [valor, setValor]= useState('.....');
+    const [get, setValor]= useState('.....');
 
-    const [quantiaValor, setquantiaValor]=useState({
-        quantidade:"-----------"
+
+    const [conteudoValor, setConteudoValor]=useState({
+        valor:"-----------",
      })
 
-    function solicitarValor(evento){
+    function salvarValor(evento){
 
         evento.preventDefault();
-        setquantiaValor({quantidade:valor})
+        
+        setConteudoValor({valor:get})
     }
 
-    function calculaTaxa(){
-        
-        const taxa = valor * 1.1;
-        return taxa;
-    }
 
     return(
         <div>
@@ -30,21 +26,27 @@ function Financeiro(){
             <h2>Nome do cliente: {}</h2>
             <br></br>
             <h2>Calculo do Financiamento</h2>
-            <form onSubmit={solicitarValor}>
-            <label> Valor Solicitado: </label>
-            <input valeu={valor} 
-            onChange={(evento)=>setValor(evento.target.value)}></input>
+
+            <form onSubmit={salvarValor}> 
             
-            <button type="submit">Calcular Financeiro</button>
+            <label> Valor do financiamento: </label>
+            <input placeholder="Informe um valor válido"  valeu={get} 
+            onChange={(evento)=>setValor(evento.target.value)}>
+
+            </input>
+            <button type="submit">Aplicar</button>
+            
             </form>
             <br></br>
-            <label onSubmit={calculaTaxa}>Taxa de juros: 10% | Valor total: {calculaTaxa}</label>
-            <br></br>
-            <label onSubmit={calculaTaxa}></label>
 
+            <div>
 
-
-            
+                <span>Valor do financiamento: R$ {conteudoValor.valor} </span>
+                <br></br>
+                <span>Taxa do financiamento: 10%</span>
+                <br></br>
+                <span>Valor a pagar após aplicação da taxa: R$ {conteudoValor.valor * 11/10}</span>
+            </div>           
             
         </div>
     )
