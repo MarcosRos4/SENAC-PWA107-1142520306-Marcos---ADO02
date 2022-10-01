@@ -27,7 +27,7 @@ function Cadastro(){
 
 
     return(
-        <div>
+        <div classNAME= "Cadastro">
             <h1>Pagina Cadastro</h1>
             <form onSubmit={cadastrarCliente}> 
             

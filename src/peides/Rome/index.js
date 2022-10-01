@@ -1,13 +1,14 @@
-import trans from "./transferir.png"
-
+import './styleRome.css';
+import Logo from "./logo.png"
 function Rome(){
     return(
         <div>
-            <h1>TELA DO ROME</h1>
-            <h3>TOP TEXT</h3>
-            <img src={trans}/>
-            <h2>BOTTOM TEXT</h2>
-        
+            <h1>BEM VINDO A TUNKADO</h1>
+                    <img src={Logo}/>
+
+                
+
+
         </div>
     )
 }

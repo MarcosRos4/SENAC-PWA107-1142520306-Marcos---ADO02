@@ -4,7 +4,7 @@ import style from './style.css';
 function Header(){
     return(
         <header>
-            MENUZAO
+            TUNKADO
         <div className="menu">
             <br/> <Link to ='/'>Home</Link> 
             <Link to ='/cadastro'>Cadastro</Link> 
