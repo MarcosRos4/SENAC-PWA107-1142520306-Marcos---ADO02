@@ -1,0 +1,88 @@
+p{
+    background-color: rgb(164, 39, 189);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+
+}
+.AAA a{
+    color: white;
+    background-color: rgb(164, 39, 189);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+body{
+
+    background-color: rgb(70, 71, 77);
+
+}
+
+h1 {
+
+    text-align: center;
+    color: antiquewhite;
+
+}
+h2 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+img {
+
+    margin-left: 600px;
+}
+
+.CCorrente{
+
+    
+  
+
+    text-align: center;
+    margin: 90px;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+  background-color: darkmagenta;
+  border-radius: 10px;
+  box-shadow: 0px 10px 40px black;
+
+  width:700px;
+  height:400px;
+  border:2px solid black;
+  padding: 60px;
+
+ font-size: 20px;
+  position: absolute;
+  top: 10%; 
+  margin-top: 40px; 
+  left: 40%; 
+  margin-left: -50px;
+    
+     
+  
+
+
+}
+
+label{
+
+    background-color: rgb(164, 39, 189);
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+span{
+
+    background-color: rgb(164, 39, 189);
+    padding: 10px;
+    border-radius: 10px;
+   
+    
+
+}
