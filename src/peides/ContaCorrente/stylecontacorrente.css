@@ -1,11 +1,40 @@
 p{
     background-color: rgb(164, 39, 189);
+    color: white;
     padding: 10px;
     border-radius: 10px;
     
 
 }
+.AAA a{
+    color: white;
+    background-color: rgb(164, 39, 189);
+    padding: 10px;
+    border-radius: 10px;
+}
 
+
+body{
+
+    background-color: rgb(70, 71, 77);
+
+}
+
+h1 {
+
+    text-align: center;
+    color: antiquewhite;
+
+}
+h2 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+img {
+
+    margin-left: 600px;
+}
 
 .CCorrente{
 
@@ -35,6 +64,15 @@ p{
     
      
   
+
+
+}
+
+label{
+
+    background-color: rgb(164, 39, 189);
+    padding: 10px;
+    border-radius: 10px;
 
 
 }

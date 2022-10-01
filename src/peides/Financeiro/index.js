@@ -18,7 +18,7 @@ function Financeiro(){
 
 
     return(
-        <div>
+        <div >
             <h1>Financeiro</h1>
             <h1>Simulação de Financiamento</h1>
             <img src={fin}/>
@@ -39,11 +39,13 @@ function Financeiro(){
             </form>
             <br></br>
 
-            <div>
+            <div className="Financeiro">
 
                 <span>Valor do financiamento: R$ {conteudoValor.valor} </span>
                 <br></br>
+                <br></br>
                 <span>Taxa do financiamento: 10%</span>
+                <br></br>
                 <br></br>
                 <span>Valor a pagar após aplicação da taxa: R$ {conteudoValor.valor * 11/10}</span>
             </div>           
